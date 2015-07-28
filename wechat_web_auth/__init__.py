@@ -6,11 +6,6 @@
 # descritpion: 
 
 
-__all__ = ['__version__',
-           '__author__',
-           'Wechat']
+__all__ = ['Wechat']
 
 from .wechat import Wechat
-
-__version__ = "0.1"
-__author__ = "Juntao Liu"
