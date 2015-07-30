@@ -8,7 +8,7 @@ setup(
     version="0.1.0",
     keywords=("wechat", "web auth"),
     description=u"微信公众平台网页授权获取用户信息python封装",
-    long_description=u"微信公众平台网页授权获取用户信息python封装",
+    long_description=open("README.md").read(),
     license="MIT License",
 
     url="https://github.com/jinuljt/wechat-web-auth",
